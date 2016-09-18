@@ -3,10 +3,61 @@ $red:                   #EA7882;
 
 $font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;
 
-$max-content-width:     1000px;
 
-.example {
-    h1 {
-        color: $red;
-    }
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica Neue;
+}
+
+h1 {
+  font-size: 2em;
+  color: #eee;
+  display: inline-block;
+}
+
+a {
+  color: white;
+}
+
+p {
+  margin-top: 1em;
+  text-align: center;
+  color: #aaa;
+}
+
+#random-article {
+  margin: 10px auto;
+  text-align: center;
+  color: white;
+}
+
+#search-article {
+  text-align: center;
+}
+
+.rounding-box {
+  margin-right: 5px;
+  font-size: 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.my-button {
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0;
+  background-color: #337ab7;
+  border-color: #2e6da4;
 }
