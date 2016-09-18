@@ -5,6 +5,7 @@
   "main": "server.js",
   "author": "nik scott",
   "dependencies": {
+    "axios": "^0.14.0"
   },
   "scripts": {
     "start": "webpack-dev-server --port $PORT --host $IP  --content-base dist/",
